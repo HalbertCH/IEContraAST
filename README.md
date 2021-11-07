@@ -34,7 +34,7 @@ python Eval.py --content input/content/1.jpg --style input/style/1.jpg
 We provide the pre-trained model in [link](https://drive.google.com/file/d/11uddn7sfe8DurHMXa0_tPZkZtYmumRNH/view?usp=sharing). 
 
 ## Comparison Results
-We compare our DualAST with [Gatys *et al.*](https://github.com/anishathalye/neural-style), [AdaIN](https://github.com/naoto0804/pytorch-AdaIN), [WCT](https://github.com/eridgd/WCT-TF), [Avatar-Net](https://github.com/LucasSheng/avatar-net), [LST](https://github.com/sunshineatnoon/LinearStyleTransfer), and [SANet](https://github.com/GlebBrykin/SANET).  
+We compare our model with some existing artistic style transfer methods, including [Gatys *et al.*](https://github.com/anishathalye/neural-style), [AdaIN](https://github.com/naoto0804/pytorch-AdaIN), [WCT](https://github.com/eridgd/WCT-TF), [Avatar-Net](https://github.com/LucasSheng/avatar-net), [LST](https://github.com/sunshineatnoon/LinearStyleTransfer), and [SANet](https://github.com/GlebBrykin/SANET).  
 
 ![image](https://github.com/HalbertCH/IEContraAST/blob/main/figures/comparison.jpg) 
 
