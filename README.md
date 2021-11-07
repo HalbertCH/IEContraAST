@@ -31,9 +31,14 @@ python train.py --content_dir /data/train2014 --style_dir /data/WikiArt/train
 ```
 python Eval.py --content input/content/1.jpg --style input/style/1.jpg
 ```
+We provide the pre-trained model in [link](https://drive.google.com/file/d/11uddn7sfe8DurHMXa0_tPZkZtYmumRNH/view?usp=sharing). 
+
+## Comparison Results
+We compare our DualAST with [Gatys *et al.*](https://github.com/anishathalye/neural-style), [AdaIN](https://github.com/naoto0804/pytorch-AdaIN), [WCT](https://github.com/eridgd/WCT-TF), [Avatar-Net](https://github.com/LucasSheng/avatar-net), [LST](https://github.com/sunshineatnoon/LinearStyleTransfer), and [SANet](https://github.com/GlebBrykin/SANET).  
+
 ![image](https://github.com/HalbertCH/IEContraAST/blob/main/figures/comparison.jpg) 
 
 ![image](https://github.com/HalbertCH/IEContraAST/blob/main/figures/table.png) 
   
-We provide the pre-trained model in [link](https://drive.google.com/file/d/11uddn7sfe8DurHMXa0_tPZkZtYmumRNH/view?usp=sharing).  
-
+ ## Acknowledgments
+The code in this repository is based on [SANet](https://github.com/GlebBrykin/SANET). Thanks for both their paper and code.
