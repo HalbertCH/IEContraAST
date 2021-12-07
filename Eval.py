@@ -38,7 +38,7 @@ parser.add_argument('--output', type=str, default = 'output',
 
 # Advanced options
 
-args = parser.parse_args('')
+args = parser.parse_args()
 
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
